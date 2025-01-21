@@ -16,3 +16,5 @@ app.get('/', (req, res) => {
 })
 
 app.use('/fruits', router);
+
+module.exports = app
